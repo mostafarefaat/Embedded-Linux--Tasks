@@ -1,0 +1,38 @@
+Signature,Parameters,Return,ID
+GPIO_BuiltinButtonsLedsInit,void,void,IDX1
+GPIO_RedLedOn,void,void,IDX2
+GPIO_BlueLedOn,void,void,IDX3
+GPIO_GreenLedOn,void,void,IDX4
+GPIO_RedLedOff,void,void,IDX5
+GPIO_BlueLedOff,void,void,IDX6
+GPIO_GreenLedOff,void,void,IDX7
+GPIO_RedLedToggle,void,void,IDX8
+GPIO_BlueLedToggle,void,void,IDX9
+GPIO_GreenLedToggle,void,void,IDX10
+GPIO_PORTF_Leds_Off,void,void,IDX11
+GPIO_PORTA_LedsInit,void,void,IDX12
+GPIO_PORTA_BlueLedOn,void,void,IDX13
+GPIO_PORTA_GreenLedOn,void,void,IDX14
+GPIO_PORTA_RedLedOn,void,void,IDX15
+GPIO_PORTA_BlueLedOff,void,void,IDX16
+GPIO_PORTA_GreenLedOff,void,void,IDX17
+GPIO_PORTA_BlueLedOff,void,void,IDX18
+GPIO_PORTA_Leds_Off,void,void,IDX19
+GPIO_SW1GetState,void,uint8,IDX20
+GPIO_SW2GetState,void,uint8,IDX21
+GPIO_SW1EdgeTriggeredInterruptInit,void,void,IDX22
+GPIO_SW2EdgeTriggeredInterruptInit,void,void,IDX23
+GPTM_WTimer0Init,void,void,IDX24
+GPTM_WTimer0Read,void,uint32,IDX25
+UART0_Init,void,extern void,IDX26
+UART0_SendByte,uint8 data,extern void,IDX27
+UART0_ReceiveByte,void,extern uint8,IDX28
+UART0_SendString,"const uint8 *pData, const uint8 *pData, const uint8 *pData",extern void,IDX29
+UART0_SendInteger,"sint64 sNumber, const uint8 *pData, const uint8 *pData",extern void,IDX30
+Test_Function_1,void,const uint32*,IDX31
+Test_Function_2,void,uint32*,IDX32
+Test_Function_3,void,void*,IDX33
+Test_Function_4,void,sint64*,IDX34
+Test_Function_5,void,boolean,IDX35
+Test_Function_6,void,float64*,IDX36
+Test_Function_7,void,float32,IDX37

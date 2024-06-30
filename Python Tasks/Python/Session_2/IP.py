@@ -1,5 +1,5 @@
 import requests
-import Firelink
+import Python.Session_2.Firelink as Firelink
 
 from pprint import pprint
 

@@ -1,0 +1,4 @@
+Hello Mostafa
+This is The First File
+welcome to Embedded Linux
+Red Green Blue Violet Balck
