@@ -1,15 +1,15 @@
-import vlc
 from gtts import gTTS
+import playsound
+import os
 
-myObj = gTTS(text = "Hello Mostafa How Are You ? Hope You Are Fine", lang= 'en', slow= False )
+myObj = gTTS(text = "Hello Mostafa How Are You ?", lang= 'en', slow= False )
 
-myObj.save("welcome.mp4")
+audio = "welcome.mp3"
 
-audio = vlc.MediaPlayer("./Python\Tasks/welcome.mp4")
+myObj.save(audio)
 
-audio.play()
+playsound.playsound(audio)
+os.remove(audio)
 
-while True:
-    pass
 
 
