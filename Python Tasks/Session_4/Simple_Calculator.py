@@ -1,5 +1,4 @@
 from tkinter import *
-import threading
 
 
 def Button_Handler():

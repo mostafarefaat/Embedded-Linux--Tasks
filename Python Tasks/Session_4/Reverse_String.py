@@ -1,5 +1,4 @@
 from tkinter import *
-import threading
 
 Word = " "
 def Button_Handler():
