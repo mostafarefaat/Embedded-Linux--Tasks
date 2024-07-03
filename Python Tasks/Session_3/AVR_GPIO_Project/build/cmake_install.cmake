@@ -1,4 +1,4 @@
-# Install script for directory: /home/mostafa-refaat/Python Tasks/AVR_GPIO_Project
+# Install script for directory: /home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mostafa-refaat/Python Tasks/AVR_GPIO_Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

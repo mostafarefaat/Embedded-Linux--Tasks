@@ -56,8 +56,21 @@ while True:
     elif alexa.search_words(["date","calender","today"],user_speech):
         alexa.Speak(str(now.date()))
 
-    elif alexa.search_words(["gmail","email"],user_speech):
-        alexa.Speak("I will mark all your Emails to be Read") 
-        os.system("cd Python\ Tasks/Python/Session_3")   
+    elif alexa.search_words(["read","email"],user_speech):
+        alexa.Speak("I will mark all your Emails to be Read")   
         os.system("python3 PyAutoGui_Email.py")
+
+    elif alexa.search_words(["google"],user_speech):
+        alexa.Speak("Opening Google")
+        web.get('firefox').open_new_tab("https://www.google.com")
+
+    elif alexa.search_words(["gmail"],user_speech):
+        alexa.Speak("Opening Gmail")
+        web.get('firefox').open_new_tab("https://mail.google.com/mail/u/0/#inbox")
+
+    elif alexa.search_words(["camera"],user_speech):
+        alexa.Speak("Opening Camera")  
+        os.system("python3 Open_Camera.py")  
+
+        
         

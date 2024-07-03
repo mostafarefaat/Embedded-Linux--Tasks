@@ -1,3 +1,0 @@
-/home/mostafa-refaat/Python Tasks/AVR_GPIO_Project/build/CMakeFiles/AVR_GPIO.dir
-/home/mostafa-refaat/Python Tasks/AVR_GPIO_Project/build/CMakeFiles/edit_cache.dir
-/home/mostafa-refaat/Python Tasks/AVR_GPIO_Project/build/CMakeFiles/rebuild_cache.dir

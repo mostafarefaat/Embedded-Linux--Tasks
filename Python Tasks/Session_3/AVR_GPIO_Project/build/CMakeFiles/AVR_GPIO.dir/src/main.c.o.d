@@ -1,5 +1,5 @@
 CMakeFiles/AVR_GPIO.dir/src/main.c.o: \
- /home/mostafa-refaat/Python\ Tasks/AVR_GPIO_Project/src/main.c \
+ /home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project/src/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

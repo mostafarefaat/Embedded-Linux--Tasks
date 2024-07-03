@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/mostafa-refaat/Python Tasks/AVR_GPIO_Project"
+CMAKE_SOURCE_DIR = /home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/mostafa-refaat/Python Tasks/AVR_GPIO_Project/build"
+CMAKE_BINARY_DIR = /home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/AVR_GPIO.dir/clean
 CMakeFiles/AVR_GPIO.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AVR_GPIO.dir/build.make CMakeFiles/AVR_GPIO.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AVR_GPIO.dir/build.make CMakeFiles/AVR_GPIO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/mostafa-refaat/Python Tasks/AVR_GPIO_Project/build/CMakeFiles" --progress-num=1,2 "Built target AVR_GPIO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project/build/CMakeFiles --progress-num=1,2 "Built target AVR_GPIO"
 .PHONY : CMakeFiles/AVR_GPIO.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AVR_GPIO.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mostafa-refaat/Python Tasks/AVR_GPIO_Project/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AVR_GPIO.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mostafa-refaat/Python Tasks/AVR_GPIO_Project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project/build/CMakeFiles 0
 .PHONY : CMakeFiles/AVR_GPIO.dir/rule
 
 # Convenience name for target.

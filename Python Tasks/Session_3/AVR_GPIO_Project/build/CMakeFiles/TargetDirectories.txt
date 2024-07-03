@@ -1,0 +1,3 @@
+/home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project/build/CMakeFiles/AVR_GPIO.dir
+/home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project/build/CMakeFiles/edit_cache.dir
+/home/mostafa-refaat/Course/Python/Session_3/AVR_GPIO_Project/build/CMakeFiles/rebuild_cache.dir
